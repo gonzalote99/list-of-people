@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>list of people</title>
+</head>
+<body onload="mostrar()">
+  <nav>
+   <a href="../index.html"><img src="https://raw.githubusercontent.com/CristianJhair/vanilla-js-apps/cf4ce1d18cdf08e05ab117f8ef405116aa2cd5c4/list-of-people-app/icons/arrow-left.svg" alt=""><span>back</span></a>
+  </nav>
+  <div id="cabecero" class="contenedor" >
+    <h1>list of people</h1>
+  </div>
+  <div class="contenedor">
+     <div class="elemento">
+      <ul id="list"></ul>
+     </div>
+  </div>
+  <div class="contenedor">
+  <div style="text-align: center;">
+  <button class="btn btn-add" style="cursor: pointer;" onclick="agregar()" >+</button>
+  <button class="btn btn-del" style="cursor: pointer;" onclick="eliminar()" >x</button>
+  </div>
+  <form action="" id="form1">
+   <input type="text" name="name" placeholder="name">
+   <input type="text" name="surname" placeholder="surnname">
+  </form>
+  </div>
+ <script src="persona.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

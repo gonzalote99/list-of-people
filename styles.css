@@ -1,0 +1,108 @@
+html {
+  background-color: #2196f3;
+  min-height: 10000px;
+  font-family: 'helvetica neue';
+  background: url('https://raw.githubusercontent.com/CristianJhair/vanilla-js-apps/main/list-of-people-app/images/fondo.png'), #2196f3;
+
+}
+
+nav a {
+  width: fit-content;
+  border-radius: 10%;
+  border: 2px solid wheat;
+  display: flex;
+  text-decoration: none;
+  font-weight: bold;
+  align-items: center;
+  padding: 5px;
+}
+
+span {
+  color: rgba(190, 242, 185, 0.933);
+  font-size: 140%;
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+}
+
+.contenedor {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+}
+
+
+#cabecero {
+  background-color: #3f51b5;
+  text-align: center;
+}
+
+.elemento {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.elemento:last-child {
+  border-bottom: 0;
+}
+
+
+form {
+  text-align: center;
+  margin-left: 20px;
+}
+
+.btn {
+  min-height: 50px;
+  border-color: transparent;
+  background-color: #3f51b5;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px;
+  margin-top: 10px;
+  border-width: 0;
+}
+
+
+.btn-add {
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #3f51b5;
+  color: #fff;
+}
+
+
+.btn-del {
+  border-color: transparent;
+  border-radius: 10%;
+  background-color: #f72e01;
+  color: #fff;
+}
+
+input[type="text"] {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-weight: 200;
+  width: 40%;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: inset 0 -3px 0 0 #3f51b5;
+}
+
+::placeholder {
+  color: gray;
+  opacity: 1;
+}
